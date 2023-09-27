@@ -1,0 +1,69 @@
+#The budget of a vacation
+#Wed sept 27,2023
+# CTI-110 P1HW2 - Travel Expense
+#Mckayle Malcolm
+###
+
+
+budmin =float(input("enter the budget of your trip"))
+#get how much they are willing to spend alltogether
+
+where = input("Your travel destination")
+#get the location
+
+gas_moni = float(input (" you got gas money? how much?"))
+#ask for how much they want to spend on gas
+accom = float(input( "your accomidations/ hotel money. You must have alot of money for that word?"))
+#how much they are putting up for hotel  or other stuff in the hotel
+fod_moni = float(input( "How much are going to eat? You got food money,How much??"))
+
+
+# the ammount they will spend on food everything is so expensive smh
+expen= gas_moni + accom + fod_moni
+# if negative they need to get more money... caluate them all and print it out 
+
+print()
+
+print("---------------TRAVEL EXPENCES-------------")
+#print the budget and location
+print("budget",budmin)
+print("Location",where)
+
+print("--------MONEY SPENT ON EACH---------")
+print()
+
+#print the money that will be spent 
+print("Fuel",gas_moni)
+print("hotel stuff",accom)
+print("Food",fod_moni)
+
+print()
+print("-----------TOTAL MONEY SPENT -------------")
+print("--------------YOUR EXPENCES -------------")
+#print how much they spent 
+print("How much you spent ",expen)
+print()
+print()
+
+
+print("-----------MONEY LEFT AFTER-------------")
+print("-----------SUBTRACTING EXPENCES ------------")
+vaktot= budmin - expen
+# get money left after spending and print it
+
+#print the possible total cost after everything
+print ("The money you should have left")
+print(vaktot)
+
+
+# if negative they need to get more money... make it known that they need more money 
+if vaktot<=0:
+    print("You broke!!:( You're in the \(o-o)/negative,Please You need more money,go find it... smh")
+else:
+    print ("Seems like you can go.. ")
+if vaktot>=420:
+    print("You got monie to spend get 69 more and you can buy a game")
+
+if vaktot>=69:
+    print ("Real nice but you need more money left over to be to go at least $420")
+
